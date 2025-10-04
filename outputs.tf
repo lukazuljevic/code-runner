@@ -3,7 +3,7 @@ output "instance_ips" {
 }
 
 output "instance_ids" {
-  value = aws_instance.instance[*].id
+  value = aws_instance.code_runner[*].id
 }
 
 output "website_endpoint" {
